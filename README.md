@@ -2,11 +2,11 @@
 
 ![Fedora Logo](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg)
 
-🚀 Overview
+ Overview
 
 This repository is my personal Fedora setup. It’s designed for speed, productivity, and terminal efficiency — a quick way to get a developer-ready system.
 
-🧩 Key Features
+ Key Features
 
 | Category | Description | Config / Install Location |
 |-----------|--------------|----------------------------|
@@ -18,7 +18,7 @@ This repository is my personal Fedora setup. It’s designed for speed, producti
 | **Extras & CLI Tools** | `fzf`, `ripgrep`, `bat`, `htop`, `fd-find` | Installed system-wide via `dnf` |
 
 
-## 📂 File Structure & Config Paths
+##  File Structure & Config Paths
 
 | File / Directory | Purpose |
 |------------------|----------|
@@ -29,7 +29,7 @@ This repository is my personal Fedora setup. It’s designed for speed, producti
 | `$HOME/.config/nvim/` | Neovim configuration directory |
 | `$HOME/.tmux.conf` | Tmux configuration file |
 
-## 💡 Notes & Recommendations
+##  Notes & Recommendations
 
 - You can rerun the installer anytime to add or update components.  
 - The "Install Everything" option installs all available components and then exits.  
@@ -39,20 +39,20 @@ This repository is my personal Fedora setup. It’s designed for speed, producti
 
 Follow these steps to install and configure your Fedora 43 development environment.
 
-🧭 Step 1: Clone the Repository
+ Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/brianrsmith1/Fedora-Dotfiles.git
 cd Fedora-Dotfiles
 ```
 
-⚙️ Step 2: Make the Installer Executable
+ Step 2: Make the Installer Executable
 
 ```bash
 chmod +x install.sh
 ```
 
-🚀 Step 3: Run the Installer
+ Step 3: Run the Installer
 
 ```bash
 ./install.sh
@@ -75,7 +75,7 @@ Select what to install:
 Choose the number for the component you want to install. To exit the installer at any time, press Ctrl+C.
 
 
-🧠 After-Installation Configuration
+ After-Installation Configuration
 
 Powerlevel10k Setup
 
@@ -88,7 +88,7 @@ p10k configure
 
 This opens the Powerlevel10k configuration wizard so you can personalize the prompt.
 
-✅ After Installation
+ After Installation
 
 Once setup completes, your Fedora system will include:
 
