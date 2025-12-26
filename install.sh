@@ -17,7 +17,7 @@ echo -e "${MAGENTA}${BOLD}
                                          |___/
 ${NC}"
 
-echo -e "${CYAN}${BOLD}Brian Smith's Fedora Dev Installer (stable)${NC}\n"
+echo -e "${CYAN}${BOLD}Brian Smith's Fedora Dev Installer ${NC}\n"
 
 # Fedora check
 if ! command -v dnf &>/dev/null; then
