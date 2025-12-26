@@ -34,8 +34,10 @@ This repository is my personal Fedora setup. It’s designed for speed, producti
 - You can rerun the installer anytime to add or update components.  
 - The "Install Everything" option installs all available components and then exits.  
 - Designed for Fedora 43.
-
-## ⚙️ Installation & Setup Guide
+- After the installation is complete you may be required to manually paste the .zshrc code into the config strucute due to p10k do so by using the directory cd ~/.zshrc and pasting the code accordingly.
+- If fastfetch does not pop up automatically on a new terminal startup try these fixes | source ~/.zshrc | chsh -s $(which zsh) | chsh -s /usr/bin/zsh | echo $SHELL | This should output /usr/bin/zsh or /bin/zsh.
+    
+## ⚙️ Installation & Setup Guidechsh 
 
 Follow these steps to install and configure your Fedora 43 development environment.
 
