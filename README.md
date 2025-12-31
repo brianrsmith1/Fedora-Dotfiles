@@ -159,31 +159,6 @@ Feel free to customize these files in the repo and re-run parts of the installer
 
 ---
 
-## Contributing
-
-Contributions are welcome. Suggested workflow:
-
-1. Fork the repository.
-2. Create a feature branch:
-   ```
-   git checkout -b update/install-sh-xxx
-   ```
-3. Make changes, test in a VM, and commit with descriptive messages.
-4. Push your branch and open a pull request.
-
-When proposing changes to `install.sh`, keep in mind:
-- Prefer idempotent behavior where possible.
-- Add checks before modifying user files.
-- Document new installation steps in this README.
-
----
-
-## License
-
-This repository does not include an explicit license file. If you want to allow reuse, add a `LICENSE` file (for example, MIT or Apache-2.0). Without a license, the default copyright restrictions apply.
-
----
-
 ## Acknowledgements
 
 - Oh My Zsh — https://github.com/ohmyzsh/ohmyzsh
